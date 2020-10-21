@@ -1,0 +1,322 @@
+ID,NAME OF DATA ELEMENT,dev-category,developer-friendly name,API data type,VARIABLE NAME,VALUE,LABEL,SOURCE,NOTES
+1,Flag for main campus,school,main_campus,integer,MAIN,0,Not main campus,IPEDS,
+1,Flag for main campus,school,,,MAIN,1,Main campus,,
+1,"Predominant undergraduate degree awarded
+ 0 Not classified
+ 1 Predominantly certificate-degree granting
+ 2 Predominantly associate's-degree granting
+ 3 Predominantly bachelor's-degree granting
+ 4 Entirely graduate-degree granting",school,degrees_awarded.predominant,integer,PREDDEG,0,Not classified,IPEDS,Shown/used on consumer website.
+1,"Predominant undergraduate degree awarded
+ 0 Not classified
+ 1 Predominantly certificate-degree granting
+ 2 Predominantly associate's-degree granting
+ 3 Predominantly bachelor's-degree granting
+ 4 Entirely graduate-degree granting",school,,,PREDDEG,1,Predominantly certificate-degree granting,,
+1,"Predominant undergraduate degree awarded
+ 0 Not classified
+ 1 Predominantly certificate-degree granting
+ 2 Predominantly associate's-degree granting
+ 3 Predominantly bachelor's-degree granting
+ 4 Entirely graduate-degree granting",school,,,PREDDEG,2,Predominantly associate's-degree granting,,
+1,"Predominant undergraduate degree awarded
+ 0 Not classified
+ 1 Predominantly certificate-degree granting
+ 2 Predominantly associate's-degree granting
+ 3 Predominantly bachelor's-degree granting
+ 4 Entirely graduate-degree granting",school,,,PREDDEG,3,Predominantly bachelor's-degree granting,,
+1,"Predominant undergraduate degree awarded
+ 0 Not classified
+ 1 Predominantly certificate-degree granting
+ 2 Predominantly associate's-degree granting
+ 3 Predominantly bachelor's-degree granting
+ 4 Entirely graduate-degree granting",school,,,PREDDEG,4,Entirely graduate-degree granting,,
+1,"Highest degree awarded
+ 0 Non-degree-granting
+ 1 Certificate degree
+ 2 Associate degree
+ 3 Bachelor's degree
+ 4 Graduate degree",school,degrees_awarded.highest,integer,HIGHDEG,0,Non-degree-granting,IPEDS,Shown/used on consumer website.
+1,"Highest degree awarded
+ 0 Non-degree-granting
+ 1 Certificate degree
+ 2 Associate degree
+ 3 Bachelor's degree
+ 4 Graduate degree",school,,,HIGHDEG,1,Certificate degree,,
+1,"Highest degree awarded
+ 0 Non-degree-granting
+ 1 Certificate degree
+ 2 Associate degree
+ 3 Bachelor's degree
+ 4 Graduate degree",school,,,HIGHDEG,2,Associate degree,,
+1,"Highest degree awarded
+ 0 Non-degree-granting
+ 1 Certificate degree
+ 2 Associate degree
+ 3 Bachelor's degree
+ 4 Graduate degree",school,,,HIGHDEG,3,Bachelor's degree,,
+1,"Highest degree awarded
+ 0 Non-degree-granting
+ 1 Certificate degree
+ 2 Associate degree
+ 3 Bachelor's degree
+ 4 Graduate degree",school,,,HIGHDEG,4,Graduate degree,,
+1,Control of institution,school,ownership,integer,CONTROL,1,Public,IPEDS,Shown/used on consumer website.
+1,Control of institution,school,,,CONTROL,2,Private nonprofit,,
+1,Control of institution,school,,,CONTROL,3,Private for-profit,,
+1,FIPS code for state,school,state_fips,integer,ST_FIPS,1,Alabama,IPEDS,
+1,FIPS code for state,school,,,ST_FIPS,2,Alaska,,
+1,FIPS code for state,school,,,ST_FIPS,4,Arizona,,
+1,FIPS code for state,school,,,ST_FIPS,5,Arkansas,,
+1,FIPS code for state,school,,,ST_FIPS,6,California,,
+1,FIPS code for state,school,,,ST_FIPS,8,Colorado,,
+1,FIPS code for state,school,,,ST_FIPS,9,Connecticut,,
+1,FIPS code for state,school,,,ST_FIPS,10,Delaware,,
+1,FIPS code for state,school,,,ST_FIPS,11,District of Columbia,,
+1,FIPS code for state,school,,,ST_FIPS,12,Florida,,
+1,FIPS code for state,school,,,ST_FIPS,13,Georgia,,
+1,FIPS code for state,school,,,ST_FIPS,15,Hawaii,,
+1,FIPS code for state,school,,,ST_FIPS,16,Idaho,,
+1,FIPS code for state,school,,,ST_FIPS,17,Illinois,,
+1,FIPS code for state,school,,,ST_FIPS,18,Indiana,,
+1,FIPS code for state,school,,,ST_FIPS,19,Iowa,,
+1,FIPS code for state,school,,,ST_FIPS,20,Kansas,,
+1,FIPS code for state,school,,,ST_FIPS,21,Kentucky,,
+1,FIPS code for state,school,,,ST_FIPS,22,Louisiana,,
+1,FIPS code for state,school,,,ST_FIPS,23,Maine,,
+1,FIPS code for state,school,,,ST_FIPS,24,Maryland,,
+1,FIPS code for state,school,,,ST_FIPS,25,Massachusetts,,
+1,FIPS code for state,school,,,ST_FIPS,26,Michigan,,
+1,FIPS code for state,school,,,ST_FIPS,27,Minnesota,,
+1,FIPS code for state,school,,,ST_FIPS,28,Mississippi,,
+1,FIPS code for state,school,,,ST_FIPS,29,Missouri,,
+1,FIPS code for state,school,,,ST_FIPS,30,Montana,,
+1,FIPS code for state,school,,,ST_FIPS,31,Nebraska,,
+1,FIPS code for state,school,,,ST_FIPS,32,Nevada,,
+1,FIPS code for state,school,,,ST_FIPS,33,New Hampshire,,
+1,FIPS code for state,school,,,ST_FIPS,34,New Jersey,,
+1,FIPS code for state,school,,,ST_FIPS,35,New Mexico,,
+1,FIPS code for state,school,,,ST_FIPS,36,New York,,
+1,FIPS code for state,school,,,ST_FIPS,37,North Carolina,,
+1,FIPS code for state,school,,,ST_FIPS,38,North Dakota,,
+1,FIPS code for state,school,,,ST_FIPS,39,Ohio,,
+1,FIPS code for state,school,,,ST_FIPS,40,Oklahoma,,
+1,FIPS code for state,school,,,ST_FIPS,41,Oregon,,
+1,FIPS code for state,school,,,ST_FIPS,42,Pennsylvania,,
+1,FIPS code for state,school,,,ST_FIPS,44,Rhode Island,,
+1,FIPS code for state,school,,,ST_FIPS,45,South Carolina,,
+1,FIPS code for state,school,,,ST_FIPS,46,South Dakota,,
+1,FIPS code for state,school,,,ST_FIPS,47,Tennessee,,
+1,FIPS code for state,school,,,ST_FIPS,48,Texas,,
+1,FIPS code for state,school,,,ST_FIPS,49,Utah,,
+1,FIPS code for state,school,,,ST_FIPS,50,Vermont,,
+1,FIPS code for state,school,,,ST_FIPS,51,Virginia,,
+1,FIPS code for state,school,,,ST_FIPS,53,Washington,,
+1,FIPS code for state,school,,,ST_FIPS,54,West Virginia,,
+1,FIPS code for state,school,,,ST_FIPS,55,Wisconsin,,
+1,FIPS code for state,school,,,ST_FIPS,56,Wyoming,,
+1,FIPS code for state,school,,,ST_FIPS,60,American Samoa,,
+1,FIPS code for state,school,,,ST_FIPS,64,Federated States of Micronesia,,
+1,FIPS code for state,school,,,ST_FIPS,66,Guam,,
+1,FIPS code for state,school,,,ST_FIPS,69,Northern Mariana Islands,,
+1,FIPS code for state,school,,,ST_FIPS,70,Palau,,
+1,FIPS code for state,school,,,ST_FIPS,72,Puerto Rico,,
+1,FIPS code for state,school,,,ST_FIPS,78,Virgin Islands,,
+1,Region (IPEDS),school,region_id,integer,REGION,0,U.S. Service Schools,IPEDS,
+1,Region (IPEDS),school,,,REGION,1,"New England (CT, ME, MA, NH, RI, VT)",,
+1,Region (IPEDS),school,,,REGION,2,"Mid East (DE, DC, MD, NJ, NY, PA)",,
+1,Region (IPEDS),school,,,REGION,3,"Great Lakes (IL, IN, MI, OH, WI)",,
+1,Region (IPEDS),school,,,REGION,4,"Plains (IA, KS, MN, MO, NE, ND, SD)",,
+1,Region (IPEDS),school,,,REGION,5,"Southeast (AL, AR, FL, GA, KY, LA, MS, NC, SC, TN, VA, WV)",,
+1,Region (IPEDS),school,,,REGION,6,"Southwest (AZ, NM, OK, TX)",,
+1,Region (IPEDS),school,,,REGION,7,"Rocky Mountains (CO, ID, MT, UT, WY)",,
+1,Region (IPEDS),school,,,REGION,8,"Far West (AK, CA, HI, NV, OR, WA)",,
+1,Region (IPEDS),school,,,REGION,9,"Outlying Areas (AS, FM, GU, MH, MP, PR, PW, VI)",,
+1,Locale of institution,school,locale,integer,LOCALE,11,"City: Large (population of 250,000 or more)",IPEDS,Shown/used on consumer website.
+1,Locale of institution,school,,,LOCALE,12,"City: Midsize (population of at least 100,000 but less than 250,000)",,
+1,Locale of institution,school,,,LOCALE,13,"City: Small (population less than 100,000)",,
+1,Locale of institution,school,,,LOCALE,21,"Suburb: Large (outside principal city, in urbanized area with population of 250,000 or more)",,
+1,Locale of institution,school,,,LOCALE,22,"Suburb: Midsize (outside principal city, in urbanized area with population of at least 100,000 but less than 250,000)",,
+1,Locale of institution,school,,,LOCALE,23,"Suburb: Small (outside principal city, in urbanized area with population less than 100,000)",,
+1,Locale of institution,school,,,LOCALE,31,Town: Fringe (in urban cluster up to 10 miles from an urbanized area),,
+1,Locale of institution,school,,,LOCALE,32,Town: Distant (in urban cluster more than 10 miles and up to 35 miles from an urbanized area),,
+1,Locale of institution,school,,,LOCALE,33,Town: Remote (in urban cluster more than 35 miles from an urbanized area),,
+1,Locale of institution,school,,,LOCALE,41,Rural: Fringe (rural territory up to 5 miles from an urbanized area or up to 2.5 miles from an urban cluster),,
+1,Locale of institution,school,,,LOCALE,42,Rural: Distant (rural territory more than 5 miles but up to 25 miles from an urbanized area or more than 2.5 and up to 10 miles from an urban cluster),,
+1,Locale of institution,school,,,LOCALE,43,Rural: Remote (rural territory more than 25 miles from an urbanized area and more than 10 miles from an urban cluster),,
+1,Degree of urbanization of institution,school,degree_urbanization,integer,LOCALE2,1,"Large City (a central city of a CMSA or MSA, with the city having a population greater than or equal to 250,000)",IPEDS,
+1,Degree of urbanization of institution,school,,,LOCALE2,2,"Mid-Size City (a central city of a CMSA or MSA, with the city having a population less than 250,000)",,
+1,Degree of urbanization of institution,school,,,LOCALE2,3,Urban Fringe of a Large City (any territory within a CMSA or MSA of a Large City and defined as urban by the Census Bureau),,
+1,Degree of urbanization of institution,school,,,LOCALE2,4,Urban Fringe of a Mid-Size City (any territory within a CMSA or MSA of a Mid-Size City and defined as urban by the Census Bureau),,
+1,Degree of urbanization of institution,school,,,LOCALE2,5,"Large Town (an incorporated place or Census-designated place with a population greater than or equal to 25,000 and located outside a CMSA or MSA)",,
+1,Degree of urbanization of institution,school,,,LOCALE2,6,"Small Town (an incorporated place or Census-designated place with a population less than 25,000 and greater than or equal to 2,500 and located outside a CMSA or MSA)",,
+1,Degree of urbanization of institution,school,,,LOCALE2,7,"Rural, Outside MSA (any territory designated as rural by the Census Bureau that is outside a CMSA or MSA of a Large or Mid-Size City)",,
+1,Degree of urbanization of institution,school,,,LOCALE2,8,"Rural, Inside MSA (any territory designated as rural by the Census Bureau that is within a CMSA or MSA of a Large or Mid-Size City)",,
+1,Carnegie Classification -- basic,school,carnegie_basic,integer,CCBASIC,-2,Not applicable,IPEDS,
+1,Carnegie Classification -- basic,school,,,CCBASIC,0,(Not classified),,
+1,Carnegie Classification -- basic,school,,,CCBASIC,1,Associate's Colleges: High Transfer-High Traditional,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,2,Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,3,Associate's Colleges: High Transfer-High Nontraditional,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,4,Associate's Colleges: Mixed Transfer/Vocational & Technical-High Traditional,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,5,Associate's Colleges: Mixed Transfer/Vocational & Technical-Mixed Traditional/Nontraditional,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,6,Associate's Colleges: Mixed Transfer/Vocational & Technical-High Nontraditional,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,7,Associate's Colleges: High Vocational & Technical-High Traditional,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,8,Associate's Colleges: High Vocational & Technical-Mixed Traditional/Nontraditional,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,9,Associate's Colleges: High Vocational & Technical-High Nontraditional,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,10,Special Focus Two-Year: Health Professions,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,11,Special Focus Two-Year: Technical Professions,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,12,Special Focus Two-Year: Arts & Design,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,13,Special Focus Two-Year: Other Fields,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,14,Baccalaureate/Associate's Colleges: Associate's Dominant,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,15,Doctoral Universities: Highest Research Activity,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,16,Doctoral Universities: Higher Research Activity,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,17,Doctoral Universities: Moderate Research Activity,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,18,Master's Colleges & Universities: Larger Programs,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,19,Master's Colleges & Universities: Medium Programs,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,20,Master's Colleges & Universities: Small Programs,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,21,Baccalaureate Colleges: Arts & Sciences Focus,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,22,Baccalaureate Colleges: Diverse Fields,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,23,Baccalaureate/Associate's Colleges: Mixed Baccalaureate/Associate's,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,24,Special Focus Four-Year: Faith-Related Institutions,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,25,Special Focus Four-Year: Medical Schools & Centers,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,26,Special Focus Four-Year: Other Health Professions Schools,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,27,Special Focus Four-Year: Engineering Schools,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,28,Special Focus Four-Year: Other Technology-Related Schools,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,29,Special Focus Four-Year: Business & Management Schools,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,30,"Special Focus Four-Year: Arts, Music & Design Schools",,
+1,Carnegie Classification -- basic,school,,,CCBASIC,31,Special Focus Four-Year: Law Schools,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,32,Special Focus Four-Year: Other Special Focus Institutions,,
+1,Carnegie Classification -- basic,school,,,CCBASIC,33,Tribal Colleges,,
+1,Carnegie Classification -- undergraduate profile,school,carnegie_undergrad,integer,CCUGPROF,-2,Not applicable,IPEDS,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,0,Not classified (Exclusively Graduate),,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,1,"Two-year, higher part-time",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,2,"Two-year, mixed part/full-time",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,3,"Two-year, medium full-time",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,4,"Two-year, higher full-time",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,5,"Four-year, higher part-time",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,6,"Four-year, medium full-time, inclusive, lower transfer-in",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,7,"Four-year, medium full-time, inclusive, higher transfer-in",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,8,"Four-year, medium full-time, selective, lower transfer-in",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,9,"Four-year, medium full-time , selective, higher transfer-in",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,10,"Four-year, full-time, inclusive, lower transfer-in",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,11,"Four-year, full-time, inclusive, higher transfer-in",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,12,"Four-year, full-time, selective, lower transfer-in",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,13,"Four-year, full-time, selective, higher transfer-in",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,14,"Four-year, full-time, more selective, lower transfer-in",,
+1,Carnegie Classification -- undergraduate profile,,,,CCUGPROF,15,"Four-year, full-time, more selective, higher transfer-in",,
+1,Carnegie Classification -- size and setting,school,carnegie_size_setting,integer,CCSIZSET,-2,Not applicable,IPEDS,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,0,(Not classified),,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,1,"Two-year, very small",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,2,"Two-year, small",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,3,"Two-year, medium",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,4,"Two-year, large",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,5,"Two-year, very large",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,6,"Four-year, very small, primarily nonresidential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,7,"Four-year, very small, primarily residential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,8,"Four-year, very small, highly residential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,9,"Four-year, small, primarily nonresidential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,10,"Four-year, small, primarily residential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,11,"Four-year, small, highly residential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,12,"Four-year, medium, primarily nonresidential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,13,"Four-year, medium, primarily residential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,14,"Four-year, medium, highly residential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,15,"Four-year, large, primarily nonresidential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,16,"Four-year, large, primarily residential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,17,"Four-year, large, highly residential",,
+1,Carnegie Classification -- size and setting,,,,CCSIZSET,18,Exclusively graduate/professional,,
+1,Flag for Historically Black College and University,school,minority_serving.historically_black,integer,HBCU,0,No,ED,Shown/used on consumer website.
+1,Flag for Historically Black College and University,,,,HBCU,1,Yes,,
+1,Flag for predominantly black institution,school,minority_serving.predominantly_black,integer,PBI,0,No,OPE,Shown/used on consumer website.
+1,Flag for predominantly black institution,,,,PBI,1,Yes,,
+1,Flag for Alaska Native Native Hawaiian serving institution,school,minority_serving.annh,integer,ANNHI,0,No,OPE,Shown/used on consumer website.
+1,Flag for Alaska Native Native Hawaiian serving institution,,,,ANNHI,1,Yes,,
+1,Flag for tribal college and university,school,minority_serving.tribal,integer,TRIBAL,0,No,OPE,Shown/used on consumer website.
+1,Flag for tribal college and university,,,,TRIBAL,1,Yes,,
+1,Flag for Asian American Native American Pacific Islander-serving institution,school,minority_serving.aanipi,integer,AANAPII,0,No,OPE,Shown/used on consumer website.
+1,Flag for Asian American Native American Pacific Islander-serving institution,,,,AANAPII,1,Yes,,
+1,Flag for Hispanic-serving institution,school,minority_serving.hispanic,integer,HSI,0,No,OPE,Shown/used on consumer website.
+1,Flag for Hispanic-serving institution,,,,HSI,1,Yes,,
+1,Flag for Native American non-tribal institution,school,minority_serving.nant,integer,NANTI,0,No,OPE,Shown/used on consumer website.
+1,Flag for Native American non-tribal institution,,,,NANTI,1,Yes,,
+1,Flag for men-only college,school,men_only,integer,MENONLY,0,No,IPEDS,Shown/used on consumer website.
+1,Flag for men-only college,,,,MENONLY,1,Yes,,
+1,Flag for women-only college,school,women_only,integer,WOMENONLY,0,No,IPEDS,Shown/used on consumer website.
+1,Flag for women-only college,,,,WOMENONLY,1,Yes,,
+1,Religous affiliation of the institution,school,religious_affiliation,integer,RELAFFIL,-1,Not reported,IPEDS,Shown/used on consumer website.
+1,Religous affiliation of the institution,,,,RELAFFIL,-2,Not applicable,,
+1,Religous affiliation of the institution,,,,RELAFFIL,22,American Evangelical Lutheran Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,24,African Methodist Episcopal Zion Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,27,Assemblies of God Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,28,Brethren Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,30,Roman Catholic,,
+1,Religous affiliation of the institution,,,,RELAFFIL,33,Wisconsin Evangelical Lutheran Synod,,
+1,Religous affiliation of the institution,,,,RELAFFIL,34,Christ and Missionary Alliance Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,35,Christian Reformed Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,36,Evangelical Congregational Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,37,Evangelical Covenant Church of America,,
+1,Religous affiliation of the institution,,,,RELAFFIL,38,Evangelical Free Church of America,,
+1,Religous affiliation of the institution,,,,RELAFFIL,39,Evangelical Lutheran Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,40,International United Pentecostal Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,41,Free Will Baptist Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,42,Interdenominational,,
+1,Religous affiliation of the institution,,,,RELAFFIL,43,Mennonite Brethren Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,44,Moravian Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,45,North American Baptist,,
+1,Religous affiliation of the institution,,,,RELAFFIL,47,Pentecostal Holiness Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,48,Christian Churches and Churches of Christ,,
+1,Religous affiliation of the institution,,,,RELAFFIL,49,Reformed Church in America,,
+1,Religous affiliation of the institution,,,,RELAFFIL,50,"Episcopal Church, Reformed",,
+1,Religous affiliation of the institution,,,,RELAFFIL,51,African Methodist Episcopal,,
+1,Religous affiliation of the institution,,,,RELAFFIL,52,American Baptist,,
+1,Religous affiliation of the institution,,,,RELAFFIL,53,American Lutheran,,
+1,Religous affiliation of the institution,,,,RELAFFIL,54,Baptist,,
+1,Religous affiliation of the institution,,,,RELAFFIL,55,Christian Methodist Episcopal,,
+1,Religous affiliation of the institution,,,,RELAFFIL,57,Church of God,,
+1,Religous affiliation of the institution,,,,RELAFFIL,58,Church of Brethren,,
+1,Religous affiliation of the institution,,,,RELAFFIL,59,Church of the Nazarene,,
+1,Religous affiliation of the institution,,,,RELAFFIL,60,Cumberland Presbyterian,,
+1,Religous affiliation of the institution,,,,RELAFFIL,61,Christian Church (Disciples of Christ),,
+1,Religous affiliation of the institution,,,,RELAFFIL,64,Free Methodist,,
+1,Religous affiliation of the institution,,,,RELAFFIL,65,Friends,,
+1,Religous affiliation of the institution,,,,RELAFFIL,66,Presbyterian Church (USA),,
+1,Religous affiliation of the institution,,,,RELAFFIL,67,Lutheran Church in America,,
+1,Religous affiliation of the institution,,,,RELAFFIL,68,Lutheran Church - Missouri Synod,,
+1,Religous affiliation of the institution,,,,RELAFFIL,69,Mennonite Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,71,United Methodist,,
+1,Religous affiliation of the institution,,,,RELAFFIL,73,Protestant Episcopal,,
+1,Religous affiliation of the institution,,,,RELAFFIL,74,Churches of Christ,,
+1,Religous affiliation of the institution,,,,RELAFFIL,75,Southern Baptist,,
+1,Religous affiliation of the institution,,,,RELAFFIL,76,United Church of Christ,,
+1,Religous affiliation of the institution,,,,RELAFFIL,77,"Protestant, not specified",,
+1,Religous affiliation of the institution,,,,RELAFFIL,78,Multiple Protestant Denomination,,
+1,Religous affiliation of the institution,,,,RELAFFIL,79,Other Protestant,,
+1,Religous affiliation of the institution,,,,RELAFFIL,80,Jewish,,
+1,Religous affiliation of the institution,,,,RELAFFIL,81,Reformed Presbyterian Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,84,United Brethren Church,,
+1,Religous affiliation of the institution,,,,RELAFFIL,87,Missionary Church Inc,,
+1,Religous affiliation of the institution,,,,RELAFFIL,88,Undenominational,,
+1,Religous affiliation of the institution,,,,RELAFFIL,89,Wesleyan,,
+1,Religous affiliation of the institution,,,,RELAFFIL,91,Greek Orthodox,,
+1,Religous affiliation of the institution,,,,RELAFFIL,92,Russian Orthodox,,
+1,Religous affiliation of the institution,,,,RELAFFIL,93,Unitarian Universalist,,
+1,Religous affiliation of the institution,,,,RELAFFIL,94,Latter Day Saints (Mormon Church),,
+1,Religous affiliation of the institution,,,,RELAFFIL,95,Seventh Day Adventists,,
+1,Religous affiliation of the institution,,,,RELAFFIL,97,The Presbyterian Church in America,,
+1,Religous affiliation of the institution,,,,RELAFFIL,99,Other (none of the above),,
+1,Religous affiliation of the institution,,,,RELAFFIL,100,Original Free Will Baptist,,
+1,Religous affiliation of the institution,,,,RELAFFIL,101,Ecumenical Christian,,
+1,Religous affiliation of the institution,,,,RELAFFIL,102,Evangelical Christian,,
+1,Religous affiliation of the institution,,,,RELAFFIL,103,Presbyterian,,
+1,Religous affiliation of the institution,,,,RELAFFIL,105,General Baptist,,
+1,Religous affiliation of the institution,,,,RELAFFIL,106,Muslim,,
+1,Religous affiliation of the institution,,,,RELAFFIL,107,Plymouth Brethren,,
+1,Flag for distance-education-only education,school,online_only,integer,DISTANCEONLY,0,Not distance-education only,IPEDS,Shown/used on consumer website.
+1,Flag for distance-education-only education,,,,DISTANCEONLY,1,Distance-education only,,
+1,"Flag for currently operating institution, 0=closed, 1=operating",school,operating,integer,CURROPER,0,Not currently certified as an operating institution,FSA,Shown/used on consumer website.
+1,"Flag for currently operating institution, 0=closed, 1=operating",,,,CURROPER,1,Currently certified as operating,,
+1,Level of institution,school,institutional_characteristics.level,integer,ICLEVEL,1,4-year,IPEDS,
+1,Level of institution,school,,,ICLEVEL,2,2-year,,
+1,Level of institution,school,,,ICLEVEL,3,Less-than-2-year,,
+1,Open admissions policy indicator,school,open_admissions_policy,integer,OPENADMP,1,Yes,IPEDS,
+1,Open admissions policy indicator,,,,OPENADMP,2,No,,
+1,Open admissions policy indicator,,,,OPENADMP,3,Does not enroll first-time students,,
